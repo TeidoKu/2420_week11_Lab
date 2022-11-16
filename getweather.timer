@@ -6,4 +6,4 @@ OnCalendar=*_*_* 05:00:00
 persistent=True
 
 [Install]
-WantedBy=timers.target
+WantedBy=timers.timer
