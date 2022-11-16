@@ -3,8 +3,7 @@ Description=use curl and wttr to get the weather evertday
 
 [service]
 Type=oneshot
-ExecStart=/opt/gtwtr/gtwtr
-
+ExecStart=/opt/getweater/getweater
 
 [Install]
 WantedBy=multi-user.target
