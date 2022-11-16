@@ -1,0 +1,14 @@
+[unit]
+Description=use curl and wttr to get the weather evertday 
+
+[service]
+Type=oneshot
+ExecStart=/opt/gtwtr/gtwtr
+
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+

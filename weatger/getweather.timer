@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer to start the getweater 
+
+[Timer]
+OnCalendar=*_*_* 05:00:00
+persistent=True
+
+[Install]
+WantedBy=timers.target
