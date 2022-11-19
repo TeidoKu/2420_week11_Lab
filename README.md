@@ -19,7 +19,6 @@ Script to backup the files/directories from server-one to backup-server
 - `/opt/backupScript`
 2. Change the *dir* as you wish to backup to.
 3. Change the *ip* to your backup server ip address.  
-<br />  
 ![config file](./capture/config.sh_content.PNG)
 
 ### backupsc.service
