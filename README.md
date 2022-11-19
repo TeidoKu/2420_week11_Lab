@@ -19,7 +19,7 @@ Script to backup the files/directories from server-one to backup-server
 - `/opt/backupScript`
 2. Change the *dir* as you wish to backup to.
 3. Change the *ip* to your backup server ip address.
-<br>
+<br />
 ![config file](./capture/config.sh_content.PNG)
 
 ### backupsc.service
@@ -32,7 +32,7 @@ Script to backup the files/directories from server-one to backup-server
 1. Save this file into */etc/systemd/system* directory.
 2. Using the command `sudo systemctl enable backupsc.timer` to enable the timer file.
 3. Run the command `systemctl status backupsc.timer` to check that **backupsc.timer** file is enabled.
-<br>
+<br />
 ![timer status](./capture/timer_enabled.PNG)
 
 ### Reload configuration
