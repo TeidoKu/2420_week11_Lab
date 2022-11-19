@@ -1,7 +1,7 @@
 # ACIT 2420 Week 11 Lab - backup
 
 ## Team Members
-Jacky Hsu
+Jacky Hsu  
 Byeongju(Jace) Kang
 
 ## Backup
@@ -18,8 +18,8 @@ Script to backup the files/directories from server-one to backup-server
 1. Save this file into the same directory as **backupsc** file.
 - `/opt/backupScript`
 2. Change the *dir* as you wish to backup to.
-3. Change the *ip* to your backup server ip address.
-<br />
+3. Change the *ip* to your backup server ip address.  
+<br />  
 ![config file](./capture/config.sh_content.PNG)
 
 ### backupsc.service
@@ -41,7 +41,7 @@ run the command `sudo systemctl daemon-reload` to reload configuration.
 
 ### How to test script
 To test script,
-1. Change the *OnCalendar* in **backupsc.timer** file to closest time.
+1. Change the *OnCalendar* in **backupsc.timer** file to closest time.  
 ![timer content](./capture/timer_content.PNG)
 2. Run the command `systemctl list-timers` to check if there is a *backupsc.timer* in UNIT section.
 3. Check the *NEXT* section to make sure the time you set up is schduled.
