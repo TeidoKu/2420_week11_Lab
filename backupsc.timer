@@ -1,0 +1,12 @@
+[Unit]
+Description=Timer to start the backup
+
+[Timer]
+OnCalendar=Friday 01:00:00
+RandomizedDelaySec=100
+Unit=backupsc.service
+Persistent=True
+
+
+[Install]
+WantedBy=timers.target

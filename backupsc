@@ -1,0 +1,4 @@
+#!/bin/bash
+
+. /opt/backupScript/config.sh
+rsync -a ${dir} jace@${ip}:~/ServerBackup -e "ssh -i /home/server-user/.ssh/server_key"

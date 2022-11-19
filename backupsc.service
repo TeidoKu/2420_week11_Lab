@@ -1,0 +1,10 @@
+[Unit]
+Description=this code uses rsync to backup specified dir to backup server's SeverBackup folder
+
+[Service]
+Type=oneshot
+ExecStart=/opt/backupScript/backupsc
+
+
+[Install]
+WantedBy=multi-user.target
